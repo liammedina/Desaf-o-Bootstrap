@@ -5,7 +5,6 @@
 }
 body{
     background-image: linear-gradient(to right bottom, #ece4e4, #cac4c3, #a9a4a3, #8a8684, #6b6967);
-    
 }
 .header{
     height: 100vh;
@@ -14,6 +13,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: 'Tenor Sans', sans-serif;
     
 }
 .header img{
@@ -25,9 +25,34 @@ video{
     width: 98vw;
     position: absolute;
 }
-un li{
-    font-family: ;
+.navbar ul li a{
+    color: bisque;
+    font-size: 20px;
 }
-.row .featurette{
-    margin: 50px;
+.row{
+    margin: 80px;
+}
+main{
+    margin: 200px 20px;
+}
+.bg-light {
+    width: 450px;
+    border-radius: 51% 0;
+}
+.bg-dark{
+    width: 450px;
+    border-radius: 5%;
+}
+.text-muted{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: bisque;
+}
+.img1{
+    height: 500px;
+    margin: 0  60px;
+}
+.col-md-5 img{
+    height: 500px;
+    margin-right: 60px;
 }
