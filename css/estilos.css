@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right bottom, #ece4e4, #cac4c3, #a9a4a3, #8a8684, #6b6967);
+    
+}
+.header{
+    height: 100vh;
+}
+.navHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.header img{
+    height: 10vh;
+    margin: 5px;
+    z-index: 1;
+}
+video{
+    width: 98vw;
+    position: absolute;
+}
+un li{
+    font-family: ;
+}
+.row .featurette{
+    margin: 50px;
+}
